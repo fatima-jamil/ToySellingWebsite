@@ -10,7 +10,7 @@ const products = [
     description: "Detailed action figure with multiple points of articulation. Perfect for imaginative play!",
     price: 1299,
     category: "Action Figures",
-    image: "https://images.unsplash.com/photo-1531482615713-2afd69097998?w=500",
+    image: "https://images.unsplash.com/photo-1542623024-a797a755b8d0?q=80&w=2942&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     stock: 25,
     ageRange: "5-12 years",
     rating: 4.5
@@ -20,7 +20,7 @@ const products = [
     description: "Beautiful princess doll with elegant dress and accessories. Great for storytelling!",
     price: 899,
     category: "Dolls",
-    image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=500",
+    image: "https://images.unsplash.com/photo-1612506001235-f0d0892aa11b?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     stock: 30,
     ageRange: "3-10 years",
     rating: 4.7
@@ -40,7 +40,7 @@ const products = [
     description: "High-speed racing cars with track. Includes 2 cars and accessories.",
     price: 2499,
     category: "Vehicles",
-    image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=500",
+    image: "https://images.unsplash.com/photo-1627326659566-4ac994e3e27d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     stock: 15,
     ageRange: "4-10 years",
     rating: 4.6
@@ -80,7 +80,7 @@ const products = [
     description: "Fashionable doll with trendy outfits and accessories.",
     price: 1099,
     category: "Dolls",
-    image: "https://images.unsplash.com/photo-1560582861-45078880e48e?w=500",
+    image: "https://images.unsplash.com/photo-1740777008919-1a794e7556cf?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     stock: 35,
     ageRange: "3-12 years",
     rating: 4.6
@@ -90,7 +90,7 @@ const products = [
     description: "Complete science experiment kit. Learn while having fun!",
     price: 2999,
     category: "Educational",
-    image: "https://images.unsplash.com/photo-1581093458791-9d42e1d0b12d?w=500",
+    image: "https://images.unsplash.com/photo-1634696684126-462b1a767e22?q=80&w=883&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     stock: 12,
     ageRange: "8-14 years",
     rating: 4.9
@@ -100,7 +100,7 @@ const products = [
     description: "Easy-to-fly RC helicopter with LED lights. Indoor/outdoor use.",
     price: 3499,
     category: "Vehicles",
-    image: "https://images.unsplash.com/photo-1473968512647-3e447244af8f?w=500",
+    image: "https://images.unsplash.com/photo-1745390397272-fd398a888a43?q=80&w=2128&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     stock: 10,
     ageRange: "10+ years",
     rating: 4.4
@@ -110,7 +110,7 @@ const products = [
     description: "Magical unicorn plush with rainbow mane. Super soft!",
     price: 799,
     category: "Plush Toys",
-    image: "https://images.unsplash.com/photo-1563291074-2bf8677ac0e5?w=500",
+    image: "https://images.unsplash.com/photo-1648070201547-9d6ef53d3a51?q=80&w=3132&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     stock: 45,
     ageRange: "3-10 years",
     rating: 4.8
