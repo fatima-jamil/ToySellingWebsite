@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
+import './Auth.css';
 
 const Signup = () => {
   const [formData, setFormData] = useState({
@@ -64,18 +65,18 @@ const Signup = () => {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-purple-100 to-pink-100 py-12 px-4 sm:px-6 lg:px-8">
-      <div className="max-w-md w-full space-y-8 bg-white p-10 rounded-2xl shadow-2xl">
-        <div>
-          <h2 className="text-center text-4xl font-extrabold text-gray-900">
-            Join ToyStore! 🎉
-          </h2>
-          <p className="mt-2 text-center text-sm text-gray-600">
-            Create your account to shop the latest toys, save favorites, and unlock exclusive deals
-          </p>
-        </div>
+    <div className="auth-page">
+      <div className="auth-card">
+          <div className="auth-header">
+            <h2 className="auth-title">
+              Join ToyStore! 🎉
+            </h2>
+            <p className="auth-subtitle">
+              Create your account to shop the latest toys, save favorites, and unlock exclusive deals
+            </p>
+          </div>
 
-        <form className="mt-8 space-y-6" onSubmit={handleSubmit}>
+        <form className="auth-form mt-8" onSubmit={handleSubmit}>
           {error && (
             <div className="bg-red-50 border border-red-200 text-red-700 px-4 py-3 rounded-lg">
               {error}
@@ -83,8 +84,8 @@ const Signup = () => {
           )}
 
           <div className="space-y-4">
-            <div>
-              <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-1">
+            <div className="form-row">
+              <label htmlFor="name" className="input-label">
                 Full Name
               </label>
               <input
@@ -100,8 +101,8 @@ const Signup = () => {
               />
             </div>
 
-            <div>
-              <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-1">
+            <div className="form-row">
+              <label htmlFor="email" className="input-label">
                 Email Address
               </label>
               <input
@@ -117,8 +118,8 @@ const Signup = () => {
               />
             </div>
 
-            <div>
-              <label htmlFor="password" className="block text-sm font-medium text-gray-700 mb-1">
+            <div className="form-row">
+              <label htmlFor="password" className="input-label">
                 Password
               </label>
               <input
@@ -134,8 +135,8 @@ const Signup = () => {
               />
             </div>
 
-            <div>
-              <label htmlFor="confirmPassword" className="block text-sm font-medium text-gray-700 mb-1">
+            <div className="form-row">
+              <label htmlFor="confirmPassword" className="input-label">
                 Confirm Password
               </label>
               <input
@@ -156,14 +157,14 @@ const Signup = () => {
             <button
               type="submit"
               disabled={loading}
-              className="group relative w-full flex justify-center py-3 px-4 border border-transparent text-sm font-medium rounded-lg text-white bg-purple-600 hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-purple-500 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
+              className="auth-button"
             >
               {loading ? 'Creating Account...' : 'Sign Up'}
             </button>
           </div>
 
-          <div className="text-center">
-            <p className="text-sm text-gray-600">
+          <div className="auth-alt">
+            <p>
               Already have an account?{' '}
               <Link to="/login" className="font-medium text-purple-600 hover:text-purple-500">
                 Login here
